@@ -70,7 +70,7 @@ Jan Christoph Ebersbach
 - EU product passes
 
 <figure>
-  <img src="bund.png" class="shadow-md" />
+  <img src="./bund.png" class="shadow-md" />
   <figcaption><small>bund.de</small></figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ Jan Christoph Ebersbach
 - Work experience and education
 
 <figure>
-  <img src="linkedin.png" class="shadow-md" />
+  <img src="./linkedin.png" class="shadow-md" />
   <figcaption><small>linkedin.com</small></figcaption>
 </figure>
 
