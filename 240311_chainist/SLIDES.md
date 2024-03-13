@@ -27,7 +27,7 @@ pdfSeparateFragments: false
 # https://github.com/hakimel/reveal.js/blob/master/js/config.js
 ---
 
-# <img src="./slides/chainist.jpg" class="h-[0.8em] shadow-md" style="margin: 0;" /> Veröffentlichte Daten, aber bitte verifizierbar!
+# <img src="./chainist.jpg" class="h-[0.8em] shadow-md m-0" /> Veröffentlichte Daten, aber bitte verifizierbar!
 
 Jan Christoph Ebersbach
 
@@ -70,7 +70,7 @@ Jan Christoph Ebersbach
 - EU product passes
 
 <figure>
-  <img src="slides/bund.png" class="shadow-md" />
+  <img src="bund.png" class="shadow-md" />
   <figcaption><small>bund.de</small></figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ Jan Christoph Ebersbach
 - Work experience and education
 
 <figure>
-  <img src="slides/linkedin.png" class="shadow-md" />
+  <img src="linkedin.png" class="shadow-md" />
   <figcaption><small>linkedin.com</small></figcaption>
 </figure>
 
@@ -123,8 +123,9 @@ Jan Christoph Ebersbach
 
 <div class="fragment">
 
-If I trust `Identifier 1` <span class="fragment">and have access to the data</span><span class="fragment">, I can start
-reasoning about `Identifier 2`!</span>
+If I trust `Identifier 1` <span class="fragment">and have access to the
+data</span><span class="fragment">, I can start reasoning about
+`Identifier 2`!</span>
 
 </div>
 
@@ -240,7 +241,8 @@ did:key:z6Mkpr4PFqRDEgG3idTrF6HYDy9UXuxBeQna8ETXr7oLvJup
 - Data / claims <!-- .element: class="fragment" -->
 - issued from one identifier <!-- .element: class="fragment" -->
 - to another identifier <!-- .element: class="fragment" -->
-- Verifiable Presentations combine multiple VCs for presentation to a third party <!-- .element: class="fragment" -->
+- Verifiable Presentations combine multiple VCs for presentation to a third
+  party <!-- .element: class="fragment" -->
 
 ### Verifiable Credential
 
@@ -351,28 +353,34 @@ did:key:z6Mkpr4PFqRDEgG3idTrF6HYDy9UXuxBeQna8ETXr7oLvJup
 ### How to connect DIDs to a website?
 
 - did:web, did:dns - tightly coupled to the web / DNS
-- [Well Known DID Configuration](https://identity.foundation/.well-known/resources/did-configuration/) to connect any
-  DID to a website via the `.well-known` path specification
+- [Well Known DID Configuration](https://identity.foundation/.well-known/resources/did-configuration/)
+  to connect any DID to a website via the `.well-known` path specification
 
 ### How to connect VCs to the web?
 
-- Verifiable Credentials are usually stored in a private wallet <!-- .element: class="fragment" -->
-- Exchange of VCs happens via interactive protocols like DIDComm Messaging and OpenID4VC
+- Verifiable Credentials are usually stored in a private wallet
+  <!-- .element: class="fragment" -->
+- Exchange of VCs happens via interactive protocols like DIDComm Messaging and
+  OpenID4VC
   <!-- .element: class="fragment" -->
 
-<span class="fragment">Lots of ceremony and technology required before VCs can be accessed and verified 😩</span>
+<span class="fragment">Lots of ceremony and technology required before VCs can
+be accessed and verified 😩</span>
 
 ## DIF Linked Verifiable Presentation Specification
 
 What if Verifiable Credentials could be published and referenced from a DID?
 
-- Open standard available at Decentralized Identity Foundation <br> <https://identity.foundation/linked-vp>
+- Open standard available at Decentralized Identity Foundation <br>
+  <https://identity.foundation/linked-vp>
 
 ### How to use it?
 
-1. Combine multiple Verifiable Credentials into a Verifiable Presentation <!-- .element: class="fragment" -->
+1. Combine multiple Verifiable Credentials into a Verifiable Presentation
+   <!-- .element: class="fragment" -->
 1. Publish signed presentation at URL <!-- .element: class="fragment" -->
-1. Extend DID document with service endpoint of type LinkedVerifiablePresentation <!-- .element: class="fragment" -->
+1. Extend DID document with service endpoint of type
+   LinkedVerifiablePresentation <!-- .element: class="fragment" -->
 
 ```json [4-6]
 "service": [
@@ -389,7 +397,7 @@ What if Verifiable Credentials could be published and referenced from a DID?
 ## Demo
 
 <figure class="w-[70%] m-auto"}>
-  <img class="shadow-md" src="./slides/plugin.png" />
+  <img class="shadow-md" src="./plugin.png" />
   <figcaption><small>identinet Browser Plugin</small></figcaption>
 </figure>
 
@@ -412,5 +420,6 @@ What if Verifiable Credentials could be published and referenced from a DID?
 <h2>References</h2>
 
 - linked-vp specification: <https://identity.foundation/linked-vp/>
-- linked-vp git repository: <https://github.com/decentralized-identity/linked-vp>
+- linked-vp git repository:
+  <https://github.com/decentralized-identity/linked-vp>
 - identinet-plugin: <https://github.com/identinet/identinet-plugin>
