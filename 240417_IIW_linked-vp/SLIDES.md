@@ -43,10 +43,8 @@ DIF Linked Verifiable Presentation Specification by Jan Christoph Ebersbach.
 2. [Public Data](#public-data)
 3. [DIF Linked Verifiable Presentation Spec](#dif-linked-verifiable-presentation-spec)
 4. [How to use it on the Web?](#how-to-use-it-on-the-web)
-5. [Next Steps](#next-steps)
-6. [Demo](#demo)
-7. [Feedback](#feedback)
-8. [Special Thanks](#special-thanks)
+5. [Demo](#demo)
+6. [Special Thanks](#special-thanks)
 
 ## Who am I <div class="i-fa6-solid-question color-[var(--lightPrimary1)] inline-block mb-[-0.2em]"></div>
 
@@ -84,7 +82,6 @@ notes:
 - Partner logos
 - Certifications
 - Endorsed initiatives and services
-- Digital Product Passes
 
 <figure>
   <img src="./bund.png" class="shadow-md" />
@@ -97,7 +94,7 @@ notes:
 
 <div class="grid grid-cols-2 items-center">
 
-- LinkedIn personal identity
+- contact details
 - Work experience
 - Education
 - Achievements and Awards
@@ -186,30 +183,45 @@ notes:
     <tr class="fragment"><td>Protocol for retrieving presentations</td><td>HTTP, IPFS, ...</td></tr>
     <tr class="fragment"><td>Storage medium for presentations</td><td>File system, database, blockchain</td></tr>
     <tr class="fragment"><td>Service API for storing, modifying and deleting presentations</td><td>Credential Registry</td></tr>
-    <tr class="fragment"><td>How to connect a DID to a website</td><td>did:web, did:dns,
-
-[DIF Well Known DID Configuration](https://identity.foundation/.well-known/resources/did-configuration/)</td></tr>
+    <tr class="fragment"><td>How to connect a DID to a website</td><td>did:web, did:dns, .well-known DID Configuration</td></tr>
 
 </tbody>
 </table>
 
 <!-- <div class="grid grid-cols-2 font-size-8 items-start "> -->
+
 <!---->
+
 <!-- <div class="border border-solid">Private communication channel</div> -->
+
 <!-- <div class="border border-solid">DIDComm & OpenID4VC</div> -->
+
 <!-- <div class="border border-solid">Protocol for retrieving presentations</div> -->
+
 <!-- <div class="border border-solid">HTTP, IPFS, ...</div> -->
+
 <!-- <div class="border border-solid">Storage medium for presentations</div> -->
+
 <!-- <div class="border border-solid">File system, database, blockchain</div> -->
+
 <!-- <div class="border border-solid">Service API for storing, modifying and deleting presentations</div> -->
+
 <!-- <div class="border border-solid">Credential Registry</div> -->
+
 <!-- <div class="border border-solid">How to connect a DID to a website</div> -->
+
 <!-- <div class="border border-solid">did:web, did:dns, -->
+
 <!---->
+
 <!-- [DIF Well Known DID Configuration](https://identity.foundation/.well-known/resources/did-configuration/) -->
+
 <!---->
+
 <!-- </div> -->
+
 <!---->
+
 <!-- </div> -->
 
 notes:
@@ -274,16 +286,18 @@ notes:
   - Public credential sharing has limitations that people need to be aware of
 - Use Cases people came up with
 
-### Use Case Ideas
+### Use Cases
 
-Warning: not suitable for every piece of data!
+<div class="fragment">
+  <div class="i-fa6-solid-triangle-exclamation color-[var(--lightSecondary1)] h-[1em] w-[1em] inline-block"></div>
+  Not suitable for all data!
+</div>
 
 - Verifiable imprint page
-- Decentralized business network
-- Downloadable terms of use
-- ...
-
-## Next Steps
+- Automated Masterdata Management
+- Verifiable partner endorsements / memberships
+- Decentralized business network à la LinkedIn
+- Digital Product Passports
 
 ## Demo
 
@@ -291,8 +305,6 @@ Warning: not suitable for every piece of data!
   <img class="shadow-md" src="./plugin.png" />
   <figcaption><small>identinet Browser Plugin</small></figcaption>
 </figure>
-
-## Feedback
 
 ## Special Thanks
 
@@ -302,7 +314,7 @@ Warning: not suitable for every piece of data!
 
 ---
 
-<h2>Thank you for your time!</h2>
+<h2>Thank you!</h2>
 
 <!-- - For which use cases would you like to use the technology? -->
 
@@ -314,14 +326,14 @@ Warning: not suitable for every piece of data!
 
 <h2>Contact</h2>
 
-- Jan Christoph Ebersbach: jan-christoph.ebersbach@identinet.io
+- Jan Christoph Ebersbach: jc@identinet.io
 
 ---
 
 <h2>References</h2>
 
-- linked-vp specification: <https://identity.foundation/linked-vp/>
-- linked-vp git repository:
-  <https://github.com/decentralized-identity/linked-vp>
 - identinet-plugin: <https://github.com/identinet/identinet-plugin>
-- presentation: <https://github.com/identinet/presentations>
+- DIF Linked-VP specification: <https://identity.foundation/linked-vp/>
+- DIF .well-known DID Configuration
+  <https://identity.foundation/.well-known/resources/did-configuration/>
+- Presentation Slides: <https://github.com/identinet/presentations>
