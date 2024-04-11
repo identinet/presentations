@@ -1,7 +1,7 @@
 ---
 # Metadata about the presentation:
 title: Public verifiable data for humans, organizations, and machines
-author: Jan Christoph Ebersbach
+author: Brian Richter and Jan Christoph Ebersbach
 date: 2024-04-17
 keywords: dif linked-vp identifiers discovery verifiable credential presentation did iiw
 
