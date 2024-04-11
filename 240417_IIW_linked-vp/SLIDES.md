@@ -183,7 +183,7 @@ notes:
     <tr class="fragment"><td>Protocol for retrieving presentations</td><td>HTTP, IPFS, ...</td></tr>
     <tr class="fragment"><td>Storage medium for presentations</td><td>File system, database, blockchain</td></tr>
     <tr class="fragment"><td>Service API for storing, modifying and deleting presentations</td><td>Credential Registry</td></tr>
-    <tr class="fragment"><td>How to connect a DID to a website</td><td>did:web, did:dns, .well-known DID Configuration</td></tr>
+    <tr class="fragment"><td>How to connect a DID to a website</td><td>did:web, did:webs, did:tdw, did:dns, .well-known DID Configuration</td></tr>
 
 </tbody>
 </table>
