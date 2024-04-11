@@ -31,7 +31,7 @@ pdfSeparateFragments: false
 
 # Public verifiable data for humans, organizations, and machines
 
-DIF Linked Verifiable Presentation Specification by Jan Christoph Ebersbach.
+DIF Linked Verifiable Presentation Specification by Brian Richter and Jan Christoph Ebersbach.
 
 <!-- generated with
 !deno run --allow-read --allow-write https://deno.land/x/remark_format_cli@v0.2.0/remark-format.js --maxdepth 2 %
