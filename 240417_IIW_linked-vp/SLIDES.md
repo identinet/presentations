@@ -327,6 +327,7 @@ notes:
 <h2>Contact</h2>
 
 - Jan Christoph Ebersbach: jc@identinet.io
+- Brian Richter: brian@aviary.tech
 
 ---
 
