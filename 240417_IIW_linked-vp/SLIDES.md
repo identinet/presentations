@@ -1,6 +1,6 @@
 ---
 # Metadata about the presentation:
-title: Public verifiable data for humans, organizations, and machines
+title: Public verifiable data for websites, humans, and organizations
 author: Brian Richter and Jan Christoph Ebersbach
 date: 2024-04-17
 keywords: dif linked-vp identifiers discovery verifiable credential presentation did iiw
@@ -29,7 +29,7 @@ pdfSeparateFragments: false
 # Icons: https://icones.js.org and https://unocss.dev/presets/icons
 ---
 
-# Public verifiable data for humans, organizations, and machines
+# Public verifiable data for websites, humans, and organizations
 
 DIF Linked Verifiable Presentation Specification by Brian Richter and Jan Christoph Ebersbach.
 
