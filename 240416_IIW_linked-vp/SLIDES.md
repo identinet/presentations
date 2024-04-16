@@ -56,6 +56,16 @@ DIF Linked Verifiable Presentation Specification by Brian Richter and Jan Christ
 <div class="i-fa6-solid-heart-pulse color-[var(--lightSecondary1)] justify-self-end"></div> FLOSS, Kubernetes, Blockchain,<br>Self-Sovereign Identity
 </div>
 
+## Who am I <div class="i-fa6-solid-question color-[var(--lightPrimary1)] inline-block mb-[-0.2em]"></div>
+
+<div class="grid grid-cols-[1fr_4fr] gap-4 justify-center justify-items-start content-center items-start text-start">
+<div class="i-fa6-solid-user color-[var(--lightPrimary1)] justify-self-end"></div> Brian Richter
+<div class="i-fa6-solid-graduation-cap color-[var(--lightPrimary1)] justify-self-end"></div> Software Engineer
+<div class="i-fa6-solid-rocket color-[var(--lightPrimary1)] justify-self-end"></div> Founder Aviary Tech
+<div class="i-simple-icons:aircanada color-[var(--lightPrimary1)] justify-self-end"></div> Victoria, Canada
+<div class="i-fa6-solid-heart-pulse color-[var(--lightSecondary1)] justify-self-end"></div> DIDComm, did:tdw, did:btco,<br>Verifiable Credentials
+</div>
+
 ## Public Data
 
 notes:
