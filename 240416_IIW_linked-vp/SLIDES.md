@@ -2,7 +2,7 @@
 # Metadata about the presentation:
 title: Public verifiable data for websites, humans, and organizations
 author: Brian Richter and Jan Christoph Ebersbach
-date: 2024-04-17
+date: 2024-04-16
 keywords: dif linked-vp identifiers discovery verifiable credential presentation did iiw
 
 # Presentation settings:
@@ -31,7 +31,8 @@ pdfSeparateFragments: false
 
 # Public verifiable data for websites, humans, and organizations
 
-DIF Linked Verifiable Presentation Specification by Brian Richter and Jan Christoph Ebersbach.
+DIF Linked Verifiable Presentation Specification by Brian Richter and Jan
+Christoph Ebersbach.
 
 <!-- generated with
 !deno run --allow-read --allow-write https://deno.land/x/remark_format_cli@v0.2.0/remark-format.js --maxdepth 2 %
