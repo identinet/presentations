@@ -1,0 +1,19 @@
+{
+  "Date": "2024-04-16",
+  "Title": "Public verifiable data for websites, humans, and organizations",
+  "Language": "en",
+  "Presenter": [
+    {
+      "name": "Jan Christoph Ebersbach"
+      "url": "https://www.linkedin.com/in/jcebersbach/"
+    }
+    {
+      "name": "Brian Richter"
+      "url": "https://www.linkedin.com/in/brianrichter"
+    }
+  ],
+  "Place": {
+    "name": "Internet Identity Workshop XXXVIII",
+    "url": "https://internetidentityworkshop.com/"
+  }
+}
