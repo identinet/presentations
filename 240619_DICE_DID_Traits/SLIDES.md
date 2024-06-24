@@ -40,3 +40,20 @@ Identifier Traits
 ## Identifier Traits
 
 See [github gist](https://gist.github.com/jceb/8e37e4900e815eb14b207ad7e8d02a6c#fees).
+
+---
+
+<h2>Thank you!</h2>
+
+---
+
+<h2>Contact</h2>
+
+- Jan Christoph Ebersbach: jc@identinet.io
+
+---
+
+<h2>References</h2>
+
+- DID Traits Gist: <https://gist.github.com/jceb/8e37e4900e815eb14b207ad7e8d02a6c#fees>
+- Presentation Slides: <https://github.com/identinet/presentations>
