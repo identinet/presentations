@@ -35,7 +35,7 @@ DIF Linked Verifiable Presentation Specification by Brian Richter and Jan
 Christoph Ebersbach.
 
 <!-- generated with
-!deno run --allow-read --allow-write https://deno.land/x/remark_format_cli@v0.2.0/remark-format.js --maxdepth 2 %
+!deno run --allow-read --allow-write https://deno.land/x/remark_format_cli@v0.3.2/remark-format.js --maxdepth 2 %
 -->
 
 ## Agenda
