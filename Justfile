@@ -57,7 +57,7 @@ update: githooks
       let metadata = $metadata | upsert Slides $"[![($metadata.Title)]\(./($folder)/preview.png\)]\(($slidesdown)($repository)/($folder)/SLIDES.md\)"
       let metadata = $metadata | insert Source $"<a href="https://($repository)/tree/main/($folder)">($folder)</a>"
       $metadata
-    } | to md | lines | insert 0 "# identinet Presentations" | to text | save -f README.md
+    } | to md | lines | insert 0 "# identinet presentations" | insert 0 $"[GitHub Sources]\(https://($repository)\)" | to text | save -f README.md
 
 # Test application
 test:

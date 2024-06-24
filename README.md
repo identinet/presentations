@@ -1,4 +1,5 @@
-# identinet Presentations
+[GitHub Sources](https://github.com/identinet/presentations)
+# identinet presentations
 |Date|Title|Language|Presenter|Place|Slides|Source|
 |-|-|-|-|-|-|-|
 |2024-06-20|<a name="240620_Self-Sovereign_did-web" href="#240620_Self-Sovereign_did-web">Self-Sovereign did:web</a>|en|<a href="https://www.linkedin.com/in/jcebersbach/">Jan Christoph Ebersbach</a>|<a href="https://diceurope.org/">Digital Identity unConference Europe 2024</a>|[![<a name="240620_Self-Sovereign_did-web" href="#240620_Self-Sovereign_did-web">Self-Sovereign did:web</a>](./240620_Self-Sovereign_did-web/preview.png)](https://slidesdown.github.io/?slides=github.com/identinet/presentations/240620_Self-Sovereign_did-web/SLIDES.md)|<a href="https://github.com/identinet/presentations/tree/main/240620_Self-Sovereign_did-web">240620_Self-Sovereign_did-web</a>|
