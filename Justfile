@@ -3,14 +3,6 @@
 
 set shell := ['nu', '-c']
 
-# Integration with nodejs package.json scripts, see https://just.systems/man/en/chapter_65.html
-
-export PATH := env('PWD') / 'node_modules/.bin:' + env('PATH')
-
-# To override the value of SOME_VERSION, run: just --set SOME_VERSION 1.2.4 TARGET_NAME
-
-SOME_VERSION := '1.2.3'
-
 # Print this help
 default:
     @just -l
