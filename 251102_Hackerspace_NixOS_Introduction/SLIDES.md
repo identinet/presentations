@@ -296,6 +296,7 @@ https://nixos.org
 - Nix, nixpkgs and NixOS manuals: <https://nixos.org/learn/>
 - NixOS Wiki <https://wiki.nixos.org> (helpful for NixOS but incomplete, combine
   it with [ArchWiki](https://wiki.archlinux.org))
+- Slides: https://github.com/identinet/presentations
 
 ---
 
