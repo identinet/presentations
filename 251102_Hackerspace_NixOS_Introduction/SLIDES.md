@@ -290,6 +290,8 @@ https://nixos.org
 - 😅 Nix language has interesting quirks - the main challenge is to learn the
   standard library
 - 🫣 Nix Flakes: the future of nix packages is still experimental
+- 😢 Manually downloaded software doesn't work because the Nix system doesn't
+  provide any system-wide libraries
 
 ## Other resources
 
