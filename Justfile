@@ -42,18 +42,19 @@ update: githooks
     let slidesdown = "https://slidesdown.github.io/?slides="
     glob "*/metadata.json" | sort -rn | each {|filename|
         let metadata = open $filename
+        let extended_metadata = {}
         let folder = $filename | path dirname | path basename
         let presenter = $metadata.Presenter
-        let metadata = $metadata | upsert Title $"<a name="($folder)" href="#($folder)">($in.Title)</a>"
-        let metadata = $metadata | upsert Place $"<a href="($in.Place.url)">($in.Place.name)</a>"
-        let metadata = $metadata | upsert Presenter ($in.Presenter | each { $"<a href="($in.url)">($in.name)</a>" } | str join " and ")
-        let url = [$slidesdown $github_repository $folder SLIDES.md] | path join
+        let extended_metadata = $metadata | upsert Title $"<a name="($folder)" href="#($folder)">($in.Title)</a>"
+        let extended_metadata = $extended_metadata | upsert Place $"<a href="($in.Place.url)">($in.Place.name)</a>"
+        let extended_metadata = $extended_metadata | upsert Presenter ($in.Presenter | each { $"<a href="($in.url)">($in.name)</a>" } | str join " and ")
+        let url = [$slidesdown ([$github_repository $folder SLIDES.md] | path join)] | str join ""
         let optimized_preview = [$folder preview_optimized.png] | path join
         let preview_raw_url = [https://raw.githubusercontent.com $repository refs/heads/main $folder preview_optimized.png] | path join
         let preview_small = [$folder preview_small.png] | path join
         if not ($preview_small | path exists) { convert -resize 240x $optimized_preview $preview_small }
-        let metadata = $metadata | upsert Slides $"[![($metadata.Title)]\(./($preview_small)\)]\(./($folder)\)"
-        let metadata = $metadata | insert Source $"<a href="https://($github_repository)/tree/main/($folder)">($folder)</a>"
+        let extended_metadata = $extended_metadata | upsert Slides $"[![($metadata.Title)]\(./($preview_small)\)]\(./($folder)\)"
+        let extended_metadata = $extended_metadata | insert Source $"<a href="https://($github_repository)/tree/main/($folder)">($folder)</a>"
         $"<!doctype html>
     <html>
       <head>
@@ -76,7 +77,12 @@ update: githooks
         <h1>Redirecting to https://slidesdown.github.io/</h1>
       </body>
     </html>" | save -f ([$folder index.html] | path join)
-        $metadata
+        $"# ($metadata.Title) — ($metadata.Date)
+
+    | Presenter | Location | Slides |
+    | - | - | - |
+    | ($extended_metadata.Presenter) | ($extended_metadata.Place) | [![($metadata.Title)]\(./($preview_small | path basename)\)]\(($url)\) |" | save -f ([$folder README.md] | path join)
+        $extended_metadata
     } | to md | lines |
     insert 0 "# [identinet](https://identinet.io) presentations" |
     insert 1 $"[GitHub Repository]\(https://($repository)\)" |
