@@ -307,3 +307,13 @@ https://nixos.org
 I ❤️ Nix ❄️
 
 Thank you for your time.
+
+---
+
+<h2>Contact</h2>
+
+- 🧔‍♂️ Jan Christoph Ebersbach
+- ✉️ jan-christoph.ebersbach@identinet.io
+- 🗺️ [identiops.com](https://identiops.com)
+
+<!-- .element: class="list-none! text-4xl leading-16" -->
