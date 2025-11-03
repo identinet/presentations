@@ -280,7 +280,7 @@ https://nixos.org
 - [direnv](https://direnv.net) integrates nicely with Nix for automated
   development shells!
   - Load all dependencies: `cd my-project`
-- Example project: <https://github.com/identinet/identinet>
+- Example project: <https://github.com/identinet/check>
 - Alternative: <https://devenv.sh/>
 
 ## Challenges
