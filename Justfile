@@ -59,7 +59,7 @@ update: githooks
     <html>
       <head>
         <meta charset=\"utf-8\" />
-        <title>Redirecting to https://slidesdown.github.io/</title>
+        <title>Redirecting to ($url)</title>
         <meta http-equiv=\"refresh\" content=\"0; URL=($url)\" />
         <meta content=\"($preview_raw_url)\" property=\"og:image\">
         <meta content=\"1200\" property=\"og:image:width\">
@@ -74,7 +74,7 @@ update: githooks
         <script src=\"https://scripts.simpleanalyticscdn.com/latest.js\" async=\"\"></script>
       </head>
       <body>
-        <h1>Redirecting to https://slidesdown.github.io/</h1>
+        <h1>Redirecting to ($url)</h1>
       </body>
     </html>" | save -f ([$folder index.html] | path join)
         $"# ($metadata.Title) — ($metadata.Date)
