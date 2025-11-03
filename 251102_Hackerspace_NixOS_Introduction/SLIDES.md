@@ -58,13 +58,15 @@ note:
 <style>
 /* highlight headings nicely so they stand out against the background */
 h2, h3 {
-  /* filter: drop-shadow(10px 10px 7px white); */
-  border-radius: 0.75rem;
+  filter: drop-shadow(10px 10px 7px white);
+  border-radius: 0.2em;
   background-color: rgb(255 255 255 / 0.5);
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: 0 0 2em 0;
-  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+h1, h2, h3 {
+  width: fit-content;
+  margin: 0 auto 2rem auto !important;
 }
 </style>
 
