@@ -46,7 +46,7 @@ update: githooks
         let folder = $filename | path dirname | path basename
         let presenter = $metadata.Presenter
         let extended_metadata = $metadata | upsert Title $"<a name="($folder)" href="#($folder)">($in.Title)</a>"
-        let extended_metadata = $extended_metadata | upsert Place $"<a href="($in.Place.url)">($in.Place.name)</a>"
+        let extended_metadata = $extended_metadata | upsert Location $"<a href="($in.Location.url)">($in.Location.name)</a>"
         let extended_metadata = $extended_metadata | upsert Presenter ($in.Presenter | each { $"<a href="($in.url)">($in.name)</a>" } | str join " and ")
         let url = [$slidesdown ([$github_repository $folder SLIDES.md] | path join)] | str join ""
         let optimized_preview = [$folder preview_optimized.png] | path join
@@ -81,7 +81,7 @@ update: githooks
 
     | Presenter | Location | Slides |
     | - | - | - |
-    | ($extended_metadata.Presenter) | ($extended_metadata.Place) | [![($metadata.Title)]\(./($preview_small | path basename)\)]\(($url)\) |" | save -f ([$folder README.md] | path join)
+    | ($extended_metadata.Presenter) | ($extended_metadata.Location) | [![($metadata.Title)]\(./($preview_small | path basename)\)]\(($url)\) |" | save -f ([$folder README.md] | path join)
         $extended_metadata
     } | to md | lines |
     insert 0 "# [identinet](https://identinet.io) presentations" |

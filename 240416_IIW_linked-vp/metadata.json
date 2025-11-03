@@ -4,15 +4,15 @@
   "Language": "en",
   "Presenter": [
     {
-      "name": "Jan Christoph Ebersbach"
+      "name": "Jan Christoph Ebersbach",
       "url": "https://www.linkedin.com/in/jcebersbach/"
-    }
+    },
     {
-      "name": "Brian Richter"
+      "name": "Brian Richter",
       "url": "https://www.linkedin.com/in/brianrichter"
     }
   ],
-  "Place": {
+  "Location": {
     "name": "Internet Identity Workshop XXXVIII",
     "url": "https://internetidentityworkshop.com/"
   }

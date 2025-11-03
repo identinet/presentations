@@ -2,7 +2,7 @@
 [GitHub Repository](https://identinet/presentations)
 <script src="https://scripts.simpleanalyticscdn.com/latest.js" async=""></script>
 
-| Date | Title | Language | Presenter | Place | Slides | Source |
+| Date | Title | Language | Presenter | Location | Slides | Source |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2025-11-02 | <a name="251102_Hackerspace_NixOS_Introduction" href="#251102_Hackerspace_NixOS_Introduction">What is Nix and do I need it?</a> | en | <a href="https://www.linkedin.com/in/jcebersbach/">Jan Christoph Ebersbach</a> | <a href="https://www.hackerspace-bremen.de/">Hackerspace Bremen e.V.</a> | [![What is Nix and do I need it?](./251102_Hackerspace_NixOS_Introduction/preview_small.png)](./251102_Hackerspace_NixOS_Introduction) | <a href="https://github.com/identinet/presentations/tree/main/251102_Hackerspace_NixOS_Introduction">251102_Hackerspace_NixOS_Introduction</a> |
 | 2024-06-20 | <a name="240620_Self-Sovereign_did-web" href="#240620_Self-Sovereign_did-web">Self-Sovereign did:web</a> | en | <a href="https://www.linkedin.com/in/jcebersbach/">Jan Christoph Ebersbach</a> | <a href="https://diceurope.org/">Digital Identity unConference Europe 2024</a> | [![Self-Sovereign did:web](./240620_Self-Sovereign_did-web/preview_small.png)](./240620_Self-Sovereign_did-web) | <a href="https://github.com/identinet/presentations/tree/main/240620_Self-Sovereign_did-web">240620_Self-Sovereign_did-web</a> |
