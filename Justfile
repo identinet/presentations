@@ -55,28 +55,28 @@ update: githooks
         if not ($preview_small | path exists) { convert -resize 240x $optimized_preview $preview_small }
         let extended_metadata = $extended_metadata | upsert Slides $"[![($metadata.Title)]\(./($preview_small)\)]\(./($folder)\)"
         let extended_metadata = $extended_metadata | insert Source $"<a href="https://($github_repository)/tree/main/($folder)">($folder)</a>"
-        $"<!doctype html>
+        $'<!doctype html>
     <html>
       <head>
-        <meta charset=\"utf-8\" />
+        <meta charset="utf-8" />
         <title>Redirecting to ($url)</title>
-        <meta http-equiv=\"refresh\" content=\"0; URL=($url)\" />
-        <meta content=\"($preview_raw_url)\" property=\"og:image\">
-        <meta content=\"1200\" property=\"og:image:width\">
-        <meta content=\"630\" property=\"og:image:height\">
-        <meta content=\"($metadata.Presenter)\" property=\"og:article:author\">
-        <meta content=\"@identinet\" name=\"twitter:site\">
-        <meta content=\"($metadata.Title)\" property=\"og:title\">
-        <meta content=\"@identinet\" name=\"twitter:creator\">
-        <meta content=\"summary_large_image\" name=\"twitter:card\">
-        <meta content=\"($metadata.Language)\" property=\"og:locale\">
-        <link rel=\"canonical\" href=\"https://presentations.identinet.io\" />
-        <script src=\"https://scripts.simpleanalyticscdn.com/latest.js\" async=\"\"></script>
+        <meta http-equiv="refresh" content="0; URL=($url)" />
+        <meta content="($preview_raw_url)" property="og:image">
+        <meta content="1200" property="og:image:width">
+        <meta content="630" property="og:image:height">
+        <meta content="($metadata.Presenter)" property="og:article:author">
+        <meta content="@identinet" name="twitter:site">
+        <meta content="@identinet" name="twitter:creator">
+        <meta content="($metadata.Title)" property="og:title">
+        <meta content="summary_large_image" name="twitter:card">
+        <meta content="($metadata.Language)" property="og:locale">
+        <link rel="canonical" href="https://presentations.identinet.io" />
+        <script src="https://scripts.simpleanalyticscdn.com/latest.js" async=""></script>
       </head>
       <body>
         <h1>Redirecting to ($url)</h1>
       </body>
-    </html>" | save -f ([$folder index.html] | path join)
+    </html>' | save -f ([$folder index.html] | path join)
         $"# ($metadata.Title) — ($metadata.Date)
 
     | Presenter | Location | Slides |
