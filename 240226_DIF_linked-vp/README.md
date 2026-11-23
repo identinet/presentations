@@ -1,4 +1,5 @@
 # DIF Work Item Linked-VP — 2024-02-26
+<img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
 
 | Presenter | Location | Slides |
 | - | - | - |

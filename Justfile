@@ -71,7 +71,7 @@ update: githooks
         <meta content="summary_large_image" name="twitter:card">
         <meta content="($metadata.Language)" property="og:locale">
         <link rel="canonical" href="https://presentations.identinet.io" />
-        <script src="https://scripts.simpleanalyticscdn.com/latest.js" async=""></script>
+        <img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
       </head>
       <body>
         <h1>Redirecting to ($url)</h1>

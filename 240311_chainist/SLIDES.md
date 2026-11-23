@@ -31,6 +31,8 @@ pdfSeparateFragments: false
 
 Jan Christoph Ebersbach
 
+<img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
+
 <!-- generated with
 !deno run --unstable --allow-read --allow-write https://deno.land/x/remark_format_cli@v0.1.0/remark-format.js --maxdepth 2 %
 -->

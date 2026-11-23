@@ -1,4 +1,5 @@
 # Veröffentlichte Daten, aber bitte verifizierbar! — 2024-03-02
+<img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
 
 | Presenter | Location | Slides |
 | - | - | - |

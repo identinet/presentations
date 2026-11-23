@@ -1,4 +1,5 @@
 # What if your website was verifiable? — 2024-06-19
+<img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
 
 | Presenter | Location | Slides |
 | - | - | - |

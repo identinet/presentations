@@ -50,6 +50,8 @@ autoSlide: 0
 
 <!-- Author: Jan Christoph Ebersbach -->
 
+<img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
+
 note:
 
 - Who am I?

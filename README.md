@@ -1,6 +1,7 @@
 # [identinet](https://identinet.io) presentations
-[GitHub Repository](https://identinet/presentations)
-<script src="https://scripts.simpleanalyticscdn.com/latest.js" async=""></script>
+[GitHub Repository](https://github.com/identinet/presentations)
+<img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
+
 
 | Date | Title | Language | Presenter | Location | Slides | Source |
 | --- | --- | --- | --- | --- | --- | --- |

@@ -1,4 +1,5 @@
 # Public verifiable data for websites, humans, and organizations — 2024-04-16
+<img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
 
 | Presenter | Location | Slides |
 | - | - | - |

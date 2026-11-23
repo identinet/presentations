@@ -1,4 +1,5 @@
 # Self-Sovereign did:web — 2024-06-20
+<img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
 
 | Presenter | Location | Slides |
 | - | - | - |
