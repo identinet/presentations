@@ -35,6 +35,7 @@ DIF Linked Verifiable Presentation Specification by Brian Richter and Jan
 Christoph Ebersbach.
 
 <img src="https://analytics.41ppl.com/backend/log/noscript?pid=bIWUyq57FQmn" alt="" referrerpolicy="no-referrer-when-downgrade" />
+
 <!-- generated with
 !deno run --allow-read --allow-write https://deno.land/x/remark_format_cli@v0.3.2/remark-format.js --maxdepth 2 %
 -->
